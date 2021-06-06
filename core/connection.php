@@ -2,12 +2,12 @@
 abstract class Connection
 {
     private $driver = "mysql";
-    private $host = "";
-    private $dbName = "";
-    private $user ="";
-    private $pass = "";
+    private $host = "localhost";
+    private $dbName = "practica1";
+    private $user ="root";
+    private $pass = "47293202axel";
     private $charset ="utf8mb4";
-
+    
     protected function connectionDB()
     {
         try
